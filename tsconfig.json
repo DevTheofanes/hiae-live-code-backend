@@ -1,0 +1,12 @@
+{
+  "include": [
+    "./src/*"
+  ],
+  "compilerOptions": {
+    "lib": [
+      "esnext"
+    ],
+    "strict": true,
+    "esModuleInterop": true
+  }
+}

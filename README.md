@@ -4,25 +4,10 @@
 
 ## Desafios
 
-### 1. Crie uma função que receba um array de strings e retorne um array com as strings em ordem aleatória.
+### 1. Você tem uma lista de Pokémons com suas respectivas informações, incluindo nome, tipo, nível e pontos de vida. Sua tarefa é escrever uma função chamada ordernarPokemonPorNivel que recebe um array de objetos representando os Pokémons e retorna um novo array ordenado por nível em ordem decrescente.
 
-js
-const fruits = ["Abacaxi", "Banana", "Pera", "Manga", "Laranja"];
+### 2. Você tem uma lista de treinadores de Pokémons, cada um com seu nome, cidade e uma lista de Pokémons capturados. Sua tarefa é escrever uma função chamada encontrarTreinadorPorCidade que recebe um array de objetos representando os treinadores e o nome de uma cidade, e retorna um novo array com todos os treinadores que são daquela cidade, juntamente com seus respectivos Pokémons capturados.
 
-### 2. Remova itens de um array de números repetidos e o retorne em ordem decrescente.
+### 3. Você tem um array de Pokémons, cada um com seu nome, tipo e nível. Sua tarefa é escrever uma função chamada calcularMédiaDeNível que recebe um array de objetos representando os Pokémons e retorna a média de nível de todos os Pokémons.
 
-js
-const numbers = [1, 2, 3, 2, 1, 2, 4, 6, 5, 1, 3, 2, 9, 8, 1, 2, 3, 4];
-
-### 3. Crie uma função que calcule o valor de aluguel de um carro. A funcionalidade deve receber a quantidade de dias e quantidade de km rodados pelo cliente, e retorne o valor do aluguel, tendo em vista as seguintes constantes (Valor da diária R$50,00 / Valor do km rodado R$00,50).
-
-### 4. Os dados a seguir, representam alternativas de um determinado sistema de quiz, que uma empresa geek usa para medir o conhecimento de seus clientes.
-
-- Qual o verdadeiro nome do Homem de Ferro? Peter Parker, Tony Stark, Robert Bruce Banner, Clark Kent.
-- Em que país nasceu o ator Tom Holland? Estados Unidos, Canadá, Reino Unido, Austrália.
-- Qual desses super-heróis não possui um poder sobre-humano? Homem-aranha, Lanterna Verde, Batman, Thor.
-
-#### Pensando nesse cenário, resolva as situações abaixo:
-
-a) Estruture os dados de forma coerente para salvamento em um banco de dados.<br>
-b) Refletindo no banco de dados em si, você optaria por um banco relacional ou não relacional? Dircurse.
+### 4. Em uma aplicação para gerenciar Pokémons, qual seria a melhor estratégia para armazenar informações sobre os movimentos de cada Pokémon? Deveríamos criar uma tabela separada para movimentos e relacioná-la com a tabela de Pokémons, ou deveríamos incluir os movimentos diretamente na tabela de Pokémons?
